@@ -9,7 +9,8 @@ Lütfen dikkatli bir şekilde gözden geçirerek uygulamalarımı inceleyin ve g
 
 Teşekkürler!
 
-![image](https://github.com/esmanur-karatas/JavaScriptUygulamalari/assets/83882274/e9730c5e-cf3d-49cd-8ed5-eef2163eda33)
+<img width="959" alt="image" src="https://github.com/esmanur-karatas/JavaScriptUygulamalari/assets/83882274/f1f6220f-46d5-4ba3-8e56-6be9838a46c6">
+
 
 
 
