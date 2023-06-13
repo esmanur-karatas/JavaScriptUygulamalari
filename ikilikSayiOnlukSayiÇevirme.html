@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //  convertDecimalToBinary(10);
+        //  function convertDecimalToBinary(number){
+        //     let binary="";
+        //     while(true){
+        //         binary+=(number%2).toString();
+        //         number = Math.floor(number/2);
+        //         if(number==1){
+        //             binary+=1;
+        //             break;
+        //         }
+        //     }
+        //     let result= reverse(binary);
+        //     console.log("Sonuç: "+result);
+
+        //  }
+        //  function reverse(binary){
+        //     let reverseBinary="";
+        //     for(let i=binary.lenght-1; i>=0; i--){
+        //         reverseBinary+=binary.charAt(i);
+        //     }
+        //     return reverseBinary;
+        //  }
+        let number = Number(prompt("Lütfen bir sayı giriniz."));
+        let num = converDecimalToBinary(number);
+        let reversed = num.toString().split("").reverse().join("");
+        console.log(reversed);
+        // converDecimalToBinary(10);
+        function converDecimalToBinary(number) {
+            let binary = "";
+            while (true) {
+                binary += (number % 2).toString();
+                number = Math.floor(number / 2);
+                if (number == 1) {
+                    binary += 1;
+                    break;
+                }
+            }
+            return binary;
+        }
+    </script>
+</body>
+
+</html>

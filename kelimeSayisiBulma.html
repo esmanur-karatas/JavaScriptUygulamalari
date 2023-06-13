@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelime Sayısı Bulma JS</title>
+</head>
+
+<body>
+    <script>
+        let metin = prompt("Metininizi Giriniz:");
+        let harf = prompt("Harfi Giriniz:");
+        let sonuc = bul(harf);
+        alert("Harf Sayısı: " + sonuc);
+        function bul(harf) {
+            let toplam = 0;
+            for (let i = 0; i < metin.length; i++) {
+                if (metin.charAt(i).toLowerCase === harf.toLowerCase) { //toLoweCase byk kçk harf duyarlılığı için kullandık.
+                    toplam += 1;
+                }
+            }
+            return toplam;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let sayi = Number(prompt("Lütfen bir sayı giriniz:"));
+        let sonuc = true;
+        for (let i = 2; i <= Math.floor(sayi / 2); i++) {
+            if (sayi % i == 0) {
+                //Asal değildir.
+                sonuc = false;
+                break;
+            }
+        }
+        if (sonuc) {
+            alert(sayi + " asaldır.");
+        } else {
+            alert(sayi + " asal değildir!");
+        }
+    </script>
+</body>
+
+</html>
